@@ -1,5 +1,7 @@
 # vscode-figma-toolkit
 
+👉 Figma Link: [VS Code Toolkit](https://www.figma.com/file/AJnTgc00iEI0KTVdyoN997/WIP-VS-Code-Toolkit?node-id=1%3A2)
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
