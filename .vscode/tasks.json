@@ -3,10 +3,23 @@
     // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
+        // {
+        //     "label": "Export from Figma",
+        //     "type": "shell",
+        //     "command": "sh",
+        //     "args": [
+        //         "scripts/export.sh",
+        //         "${env:FIGMA_TOKEN}"
+        //     ],
+        //     "group": {
+        //         "kind": "build",
+        //         "isDefault": true,
+        //     }
+        // },
         {
             "label": "Export from Figma",
             "type": "npm",
-            "script": "export --FIGMA_TOKEN=$FIGMA_TOKEN",
+            "script": "export",
             "group": {
                 "kind": "build",
                 "isDefault": true,
