@@ -1,3 +1,4 @@
+# vscode-figma-toolkit
 
 # Contributing
 
