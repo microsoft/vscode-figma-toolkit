@@ -1,0 +1,22 @@
+{
+  "name": "vscode-figma-toolkit",
+  "version": "1.0.0",
+  "description": "A Figma design toolkit for Visual Studio Code",
+  "main": "index.js",
+  "scripts": {
+    "export": "sh scripts/export.sh"
+  },
+  "devDependencies": {
+    "node-jq": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microsoft/vscode-figma-toolkit.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/microsoft/vscode-figma-toolkit/issues"
+  },
+  "homepage": "https://github.com/microsoft/vscode-figma-toolkit#readme"
+}

@@ -1,0 +1,37 @@
+name: Export from Figma & Commit Files
+on:
+  schedule:
+    - cron:  '0 8 * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@master
+      with:
+        node-version: 10.0.0
+    
+    - name: Install dependencies
+      run: npm install
+      
+    - name: Checkout repo
+      uses: actions/checkout@master
+
+    - name: Export Figma Files
+      run: |
+        npm run export
+        
+    - name: Add & Commit
+      uses: EndBug/add-and-commit@v2.1.0 
+      with:
+        author_name: misolori
+        author_email: miguel.solorio@microsoft.com
+        message: Export Figma file
+        path: "."
+        pattern: "*.json"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
