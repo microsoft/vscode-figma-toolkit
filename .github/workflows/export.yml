@@ -35,4 +35,5 @@ jobs:
         path: "."
         pattern: "*.json"
       env:
+        FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
