@@ -1,7 +1,8 @@
 name: Export from Figma & Commit Files
 on:
-  schedule:
-    - cron:  '0 8 * * *'
+  push
+  # schedule:
+  #   - cron:  '0 8 * * *'
 
 jobs:
   build:
