@@ -51,7 +51,9 @@ Most components will have various states that you can swap to, which should reta
 
 ### 7. Using Icons
 
-Use the “Icons” artboard to copy Codicon and Seti icon glyphs:
+Use the “Visual Studio Code Icons” Figma plugin to copy icon glyphs:
+
+Figma Plugin: [Visual Studio Code Icons](https://aka.ms/vscode-figma-icons)
 
 ![image](resources/step-7.png)
 
