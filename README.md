@@ -18,7 +18,7 @@ Next, Publish Styles & Components as a team library. You can also rename & move 
 
 ### 3. Enable Library
 
-Create a new file and enable the team library for your file: 
+Create a new file and enable the team library for your file:
 
 ![image](resources/step-3.png)
 
@@ -125,13 +125,17 @@ Below is a mapping of the colors that are used in the Figma to their color token
 |Yellow 01|gitDecoration.modifiedResourceForeground<br>textPreformat.foreground<br>|
 |Yellow 02|editorMarkerNavigationWarning.background<br>editorOverviewRuler.warningForeground<br>editorWarning.foreground<br>list.warningForeground<br>|
 |Yellow 03|inputValidation.warningBorder<br>list.invalidItemForeground<br>inputValidation.warningBackground<br>|
-|Yellow 04|terminal.ansiYellow<br>terminal.ansiBrightYellow<br>editor.stackFrameHighlightBackground<br>|
+|Yellow 04|charts.yellow<br>debugConsole.warningForeground (☀️)<br>editorMarkerNavigationWarning.background (☀️)<br>editorMarkerNavigationWarning.headerBackground (☀️)<br>editorOverviewRuler.warningForeground (☀️)<br>editorWarning.foreground (☀️)<br>minimap.warningHighlight (☀️)<br>notificationsWarningIcon.foreground (☀️)<br>problemsWarningIcon.foreground| (☀️)<br>
+|Yellow 05|terminal.ansiYellow<br>terminal.ansiBrightYellow<br>editor.stackFrameHighlightBackground<br>|
 |Orange 01|statusBar.debuggingBackground<br>editorOverviewRuler.findMatchForeground (7e)<br>minimap.findMatchHighlight<br>|
 |Orange 02|peekViewEditor.matchHighlightBackground<br>editor.findMatchHighlightBackground (55)<br>peekViewResult.matchHighlightBackground (4d)<br>|
+|Orange 03|editor.findMatchHighlightBackground<br>editor.symbolHighlightBackground<br>list.filterMatchBackground<br>peekViewResult.matchHighlightBackground<br>searchEditor.findMatchBackground<br>editor.findMatchHighlightBackground (☀️)<br>editor.symbolHighlightBackground (☀️)<br>list.filterMatchBackground (☀️)<br>peekViewResult.matchHighlightBackground (☀️)<br>searchEditor.findMatchBackground|
+|Gray 01|interactive.inactiveCodeBorder (☀️)<br>list.inactiveSelectionBackground|
+|Gray 02|button.secondaryBackground (☀️)|
 
 # Contributing
 
-If you'd like to contribute components, please create a PR with a link to your Figma file that has the proposed the components. Please re-use the same naming convention found in the rest of the file. Depending on the 
+If you'd like to contribute components, please create a PR with a link to your Figma file that has the proposed the components. Please re-use the same naming convention found in the rest of the file. Depending on the
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
